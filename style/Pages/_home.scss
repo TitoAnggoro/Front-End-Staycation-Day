@@ -1,0 +1,23 @@
+.page-home {
+  margin-top: 30px;
+
+  .btn-showmennow {
+    margin-top: 20px;
+  }
+
+  .text-hero {
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: lighter;
+    color: #979797;
+    margin-bottom: 20px;
+  }
+
+  .img-banner {
+    @include media-breakpoint-down(md) {
+      .custom-class {
+        display: none;
+      }
+    }
+  }
+}
